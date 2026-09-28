@@ -1,0 +1,21 @@
+{
+  "name": "respond-dubtech-io",
+  "account_id": "b53a94dbb915dc3f10629470c2cf2fed",
+
+  // Required for Wrangler v3+: locks in behavior versioning
+  "compatibility_date": "2026-09-28",
+
+  // Use your own domain — not *.workers.dev
+  "workers_dev": false,
+  "preview_urls": true,
+
+  // Serve static files from the root directory
+  "assets": {
+    "directory": "www"
+  },
+
+  "routes": [
+    {"pattern": "https://respond.dubtech.io/*", "zone_id": "6e006c04b011e8b89068c779ad5a179e"},
+  ],
+  "previews": {},
+}
